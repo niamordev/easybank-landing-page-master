@@ -149,13 +149,18 @@ main{
 
 
 
-
-
-@media (min-width:1000px) {
+@media (min-width:600px) {
 
     body{
         overflow-y:visible !important;
     }
+}
+
+
+
+
+@media (min-width:1000px) {
+
     .intro{
         background: url(../images/bg-intro-desktop.svg) no-repeat !important;
         background-size: 100% 100% !important;
@@ -239,6 +244,7 @@ main{
 
         img {
             height: 200px;
+       
         }
 
         .card{
