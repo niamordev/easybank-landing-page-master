@@ -21,7 +21,7 @@ header {
 
     .container-nav-mobile{
         display: none;
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         top: 50px;
@@ -31,7 +31,7 @@ header {
 
     .nav-list-mobile{
         background-color: $White;
-        position: absolute;
+        position: fixed;
         width: 300px;
         padding: 10px 0;
         left: 50%;
