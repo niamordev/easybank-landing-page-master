@@ -1,0 +1,275 @@
+body{
+    overflow-x: hidden;
+}
+
+main{
+    margin: auto;
+    width: 100vw;
+    max-width: 1440px;
+
+
+    .intro{
+        background: url(../images/bg-intro-mobile.svg) no-repeat;
+        background-size: 100% 50%;
+        background-position: top right;
+        overflow: hidden;
+        text-align: center;
+
+        img{
+            width: 70%;
+            margin-top: -140px;
+        }
+
+        .intro-container-txt>*{
+            margin-bottom: 10px;
+        }
+
+        .intro-container-txt p{
+            color: $GrayishBlue;
+            margin: 14px 0 25px 0;
+        }
+
+        .intro-container-txt{
+            padding: 20px;
+
+        }
+
+        button{
+            cursor: pointer;
+            font-weight: lighter;
+            color: $White;
+            border-radius: 30px;
+            font-weight: bolder;
+            border: none;
+            padding: 10px 30px;
+            background: linear-gradient(0.20turn, $LimeGreen, $BrightCyan);
+        }
+
+        h1{
+            font-size: 40px;
+            font-weight: lighter;
+        }
+
+
+    }
+
+
+
+    .why-choose-easybank{
+        background-color: $LightGrayishBlue;
+        padding: 50px 30px;
+        text-align: center;
+
+        p{
+            color: $GrayishBlue;
+        }
+
+        .title-description{
+            width: 100%;
+            margin: 50px 0;
+        }
+        h2{
+            font-size: 28px;
+            font-weight: lighter;
+            margin-bottom: 10px;
+        }
+
+        .box-container-advantage{
+            margin-bottom: 30px;
+        }
+
+        .box-container-advantage p {
+            color: $GrayishBlue;
+        }
+
+        .box-container-advantage> h3{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: $DarkBlue;
+            font-weight: lighter;
+            font-size: 21px;
+        }
+    }
+
+
+
+    .latest-article{
+        padding: 50px 30px;
+    
+    .title{
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .card{
+        cursor: pointer;
+        margin-top: 30px;
+        overflow: hidden;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 23px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.068);
+    }
+
+    .card:hover > img{
+        scale: 1.1;
+    }
+
+    .author{
+        font-size: 10px;
+
+    }
+
+    h4{
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    p{
+        color: $GrayishBlue;
+    }
+
+    .description{
+        padding: 30px;
+    }
+
+    
+}}
+
+
+
+
+
+
+
+
+@media (min-width:1000px) {
+
+    body{
+        overflow-y:visible !important;
+    }
+    .intro{
+        background: url(../images/bg-intro-desktop.svg) no-repeat !important;
+        background-size: 100% 100% !important;
+        background-position-x: 500px !important;
+        background-position-y: -100px !important;
+        text-align: left !important;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 600px;
+        overflow: hidden !important;
+        justify-content: space-around;
+
+
+    img {
+        width: 500px !important;
+        height: 100%;
+        margin-top: -90px !important;
+    }
+
+    .intro-container-txt{
+        margin-top: 50px;
+        width: 30%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+    .why-choose-easybank{
+        background-color: $LightGrayishBlue;
+        padding: 120px 30px !important;
+        text-align: left !important;
+        z-index: 0;
+        margin-top: -150px;
+
+            .title-description{
+                width: 100%;
+                margin-bottom: 60px !important;
+            }
+            h2{
+                font-size: 28px;
+                font-weight: lighter;
+                margin-bottom: 10px;
+            }
+
+            .box-container-advantage{
+                margin-bottom: 30px;
+                width: 20%;
+            }
+
+            .box-container-advantage> h3{
+            }
+
+            .container-all-boxes{
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+
+
+
+        .latest-article{
+            padding: 50px 50px;
+
+        .container-all-cards{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .title{
+            font-size: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            height: 200px;
+        }
+
+        .card{
+            width: 24%;
+            margin-top: 30px;
+            overflow: hidden;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 23px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.068);
+        }
+
+        .author{
+            font-size: 10px;
+
+        }
+
+        h4{
+            font-size: 18px;
+            font-weight: lighter;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        p{
+            color: $GrayishBlue;
+        }
+
+        .description{
+            padding: 30px;
+        }
+}
+}
